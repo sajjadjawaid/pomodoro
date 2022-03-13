@@ -1,0 +1,103 @@
+.container{
+     /* border: 2px solid black;   */
+    width: 30%;
+    height: 60%; 
+    /* max-width: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.timerBox {
+     width: 400px;
+     height: 180px;
+    /* border: 2px solid rgb(122, 120, 120); */
+    box-shadow: inset 10px 12px 40px rgb(185, 182, 182);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
+
+input{
+    border: 3px solid rgb(54, 54, 161); 
+    width: 390px;
+    height:44px ;
+    border-radius: 4px;
+    padding: 20px;
+    color: rgb(54, 54, 161);
+    outline: none;
+    font-size: 20px;
+
+
+}
+
+.note {
+    /* border: 2px solid black; */
+    width: 360px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.sectionwork{
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+.sectionbreak{
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: rgb(199, 121, 18);
+}
+
+.btn {
+     /* border: 2px solid red;  */
+    width: 400px;
+    height: 100px;
+    border-radius: 6px;
+    
+}
+
+.startbtn {
+    
+    border-radius: 8px;
+    margin-right: 20px;
+
+}
+
+.pausebtn {
+    
+    border-radius: 8px;
+    margin-right: 20px;
+    
+    
+}
+
+.resumebtn {
+    
+    border-radius: 8px;
+    margin-right: 20px;
+    
+}
+
+.stopbtn {
+    
+    border-radius: 8px;
+    
+}
+
+
